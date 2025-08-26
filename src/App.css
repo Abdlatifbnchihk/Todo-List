@@ -7,6 +7,19 @@
   pointer-events: none;
 }
 
+body {
+  background: linear-gradient(to right, #c35643, #9e41ae);
+}
+
+.todolist {
+  height: 200px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
